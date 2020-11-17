@@ -3,3 +3,13 @@
     overflow: hidden;
     position: relative;
 }
+
+.layer {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1080px;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
