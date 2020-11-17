@@ -12,6 +12,8 @@
   for (_i = 0, _len = layers.length; _i < _len; _i++) {
     layer = layers[_i];
     depth = layer.getAttribute(‘data - depth’);
+    movement = -(topDistance * depth);
   }
+
 
 
